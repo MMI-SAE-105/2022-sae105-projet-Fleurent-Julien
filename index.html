@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
     <link rel="stylesheet" href="/src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
 <body>
@@ -15,7 +16,10 @@
                 alt="Icone pour aller sur la page d'accueil"></a>
         <img src="public/Logo/logo_fr.png" alt="Changement de langue">
         <h1 class="titre">Tick Tock Time</h1>
-        <nav>
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
+        <nav class="menu">
             <ul>
                 <li><a href="toulouse.html">Toulouse</a></li>
                 <li><a href="ready_player_one.html">Ready Player One</a></li>
