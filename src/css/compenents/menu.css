@@ -33,20 +33,20 @@
 
 .menu-open .nav-toggle-bar {
     transform: rotate(135deg);
-    background-color: black;
+    background-color: white;
 }
 
 .menu-open .nav-toggle-bar::before,
 .menu-open .nav-toggle-bar::after {
     transform: rotate(90deg);
-    background-color: black;
+    background-color: white;
     top: 0;
 }
 
 /*MENU*/
 
 .menu {
-    background-color: white;
+    background-color: var(--bleu-fonce);
     position: fixed;
     top: 0;
     left: 0;
@@ -78,7 +78,6 @@
     margin: 0;
     padding: 0;
     font-size: 2.3rem;
-    text-transform: uppercase;
 }
 
 .menu-li {
@@ -94,10 +93,10 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
-    background-color: #570303;
     color: white;
     text-align: center;
     border: solid;
+    text-decoration: none;
 }
 
 .menu-open .menu-li {
