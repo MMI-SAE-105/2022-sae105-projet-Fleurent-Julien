@@ -4,6 +4,7 @@
 
 /*Base*/
 @import url(base/main.css);
+@import url(base/font.css);
 
 /* Compenents */
 @import url(compenents/menu.css);

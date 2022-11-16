@@ -1,0 +1,32 @@
+p {
+    font-family: 'kanit';
+    font-size: var(--header-3);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h3 {
+    font-family: 'kanit';
+    padding-top: 5%;
+}
+
+h2 {
+    font-family: 'kanit';
+    font-size: var(--header-2);
+    padding-left: 5%;
+    font-weight: normal;
+}
+
+body {
+    background-color: var(--quartz);
+}
+
+.titre {
+    font-family: 'rubik';
+    font-size: var(--header-1);
+    color: var(--quartz);
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    padding-top: 45%;
+}

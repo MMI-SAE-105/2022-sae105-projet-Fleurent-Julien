@@ -2,32 +2,26 @@
     align-items: flex-start;
 }
 
-p {
-    font-family: 'kanit';
-    font-size: var(--header-3);
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-h3 {
-    font-family: 'kanit';
-}
-
-body {
-    background-color: var(--quartz);
-}
 
 .block {
     display: block;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
     background-color: var(--bleu-clair);
     color: var(--quartz);
-    padding-top: 5%;
-    padding-bottom: 5%;
 }
 
 .bouton {
     padding-left: 50%;
     text-align: center;
+    padding-top: 50%;
+}
+
+.triangle {
+    position: relative;
+    justify-content: flex-start;
+    object-position: middle;
 }
