@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&family=Kanit&family=Rubik:wght@400;700&display=swap');
+
 @import url(variables.css);
 
+/*Base*/
+@import url(base/main.css);
 
 /* Compenents */
 @import url(compenents/menu.css);
+@import url(compenents/footer.css);
+@import url(compenents/header.css);
 
 /*Vendors*/
 

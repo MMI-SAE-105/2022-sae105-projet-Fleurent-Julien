@@ -46,7 +46,7 @@
 /*MENU*/
 
 .menu {
-    background-color: var(--bleu-fonce);
+    background-color: var(--bleu-triangle);
     position: fixed;
     top: 0;
     left: 0;
@@ -78,6 +78,9 @@
     margin: 0;
     padding: 0;
     font-size: 2.3rem;
+    font-family: 'kanit';
+    font-size: var(--header-2);
+    font-weight: lighter;
 }
 
 .menu-li {
@@ -88,14 +91,12 @@
 }
 
 .menu a {
-    color: black;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    color: white;
+    padding: 30px;
     text-align: center;
-    border: solid;
     text-decoration: none;
 }
 

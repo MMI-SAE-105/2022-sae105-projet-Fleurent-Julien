@@ -1,0 +1,26 @@
+.footer {
+    background-color: var(--bleu-fonce);
+    color: white;
+    text-decoration: none;
+    font-family: 'rubik';
+    font-size: var(--body);
+    padding-top: 5px;
+}
+
+.footer li {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin: 10px;
+    text-align: left;
+}
+
+.footer a {
+    text-decoration: none;
+    font-family: 'rubik';
+    color: white;
+}
+
+.mention {
+    font-size: var(--header-4);
+}
