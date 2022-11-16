@@ -25,3 +25,7 @@
     justify-content: flex-start;
     object-position: middle;
 }
+
+img {
+    object-position: middle;
+}
