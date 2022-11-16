@@ -1,0 +1,11 @@
+.header {
+    background-color: var(--bleu-fonce);
+    padding-bottom: 10%;
+}
+
+.title {
+    font-size: var(--titre);
+    color: white;
+    font-family: 'gemunu libre';
+    text-align: center;
+}

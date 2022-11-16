@@ -1,3 +1,33 @@
 .logo {
     align-items: flex-start;
 }
+
+p {
+    font-family: 'kanit';
+    font-size: var(--header-3);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h3 {
+    font-family: 'kanit';
+}
+
+body {
+    background-color: var(--quartz);
+}
+
+.block {
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: var(--bleu-clair);
+    color: var(--quartz);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.bouton {
+    padding-left: 50%;
+    text-align: center;
+}

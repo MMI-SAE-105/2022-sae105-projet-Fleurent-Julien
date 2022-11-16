@@ -25,7 +25,7 @@
         <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
             <div class="nav-toggle-bar"></div>
         </div>
-        <nav>
+        <nav class="menu">
             <ul>
                 <li><a href="toulouse.html">Toulouse</a></li>
                 <li><a href="ready_player_one.html">Ready Player One</a></li>
@@ -49,12 +49,8 @@
         N’hésitez pas à me rejoindre sur les réseau sociaux qui sont disponibles en dessous dans le pied de page.
     </p>
 
-    <h2>Glossaire</h2>
-
-
-
-    <dl x-data="{open :true}" :class="{noscroll:open,}" aria-controls="mainMenu1" @click="open = ! open">
-        <dt>Glossaire</dt>
+    <dl x-data="{open : false}" :class="{noscroll:open,}" aria-controls="mainMenu1" @click="open = ! open">
+        <h2>Glossaire</h2>
         <dd id="mainMenu1" x-show="open" x-transition.duration.800ms>Easter Egg : Terme utilisé en Informatique pour
             désigner une référence qui
             techniquement ne devrait pas
