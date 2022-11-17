@@ -4,7 +4,6 @@
 
 
 .block {
-    display: block;
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
@@ -15,15 +14,14 @@
 }
 
 .bouton {
-    padding-left: 50%;
+    margin-left: 60%;
     text-align: center;
-    padding-top: 50%;
 }
 
 .triangle {
     position: relative;
-    justify-content: flex-start;
-    object-position: middle;
+    padding-bottom: 20%;
+
 }
 
 img {

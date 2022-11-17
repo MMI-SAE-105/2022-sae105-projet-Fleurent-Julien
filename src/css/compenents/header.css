@@ -1,6 +1,11 @@
-.header {
+.header,
+.headeer ol {
     background-color: var(--bleu-fonce);
 
+}
+
+.header li {
+    list-style: none;
 }
 
 .title {
@@ -13,9 +18,7 @@
 
 .watch,
 .language {
-    padding-left: 5%;
-    padding-top: 5%;
-    display: block;
+    display: inside;
 }
 
 .watch {
@@ -24,4 +27,5 @@
 
 .language {
     max-width: 30%;
+    display: internal;
 }

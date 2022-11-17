@@ -94,8 +94,8 @@
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 30px;
+    justify-content: center;
     text-align: center;
     text-decoration: none;
 }
