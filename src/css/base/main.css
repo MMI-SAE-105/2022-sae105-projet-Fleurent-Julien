@@ -28,4 +28,5 @@
 
 img {
     object-position: middle;
+    max-width: fit-content;
 }

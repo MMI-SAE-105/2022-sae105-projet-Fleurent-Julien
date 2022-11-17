@@ -1,0 +1,19 @@
+:root {
+    /* Color styles */
+    --bleu-fonce: #02083A;
+    --quartz: #F8F8F8;
+    --bleu-clair: #5965C5;
+    --bleu-triangle: #0E1870;
+    --texte: #303030;
+
+    /* Text-size styles */
+    /* base size: header-3 (16px) */
+    --titre: 6.25rem;
+    --header-1: 2.5rem;
+    --body: 1.25rem;
+    --header-4: 0.88rem;
+    --header-3: 1rem;
+    --button: 1.25rem;
+    --header-2: 1.56rem;
+    --header-4-link: 0.88rem;
+}

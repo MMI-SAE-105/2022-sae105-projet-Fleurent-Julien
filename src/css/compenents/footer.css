@@ -24,3 +24,9 @@
 .mention {
     font-size: var(--header-4);
 }
+
+.footer img {
+    max-width: 15%;
+    padding-left: 7%;
+    margin-bottom: 10%;
+}

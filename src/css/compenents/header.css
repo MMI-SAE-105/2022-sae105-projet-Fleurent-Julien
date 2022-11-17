@@ -1,5 +1,6 @@
 .header {
     background-color: var(--bleu-fonce);
+
 }
 
 .title {
@@ -7,4 +8,20 @@
     color: white;
     font-family: 'gemunu libre';
     text-align: center;
+    padding-bottom: 10%;
+}
+
+.watch,
+.language {
+    padding-left: 5%;
+    padding-top: 5%;
+    display: block;
+}
+
+.watch {
+    max-width: 20%;
+}
+
+.language {
+    max-width: 30%;
 }
