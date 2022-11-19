@@ -1,5 +1,4 @@
-.header,
-.headeer ol {
+.header {
     background-color: var(--bleu-fonce);
 
 }
@@ -7,6 +6,7 @@
 .header li {
     list-style: none;
 }
+
 
 .title {
     font-size: var(--titre);
@@ -16,16 +16,14 @@
     padding-bottom: 10%;
 }
 
-.watch,
-.language {
-    display: inside;
-}
-
 .watch {
-    max-width: 20%;
+    max-width: 15%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 .language {
     max-width: 30%;
-    display: internal;
+    margin-left: 5%;
+    margin-top: 5%;
 }
