@@ -1,19 +1,17 @@
 .header {
     background-color: var(--bleu-fonce);
-
 }
 
 .header li {
     list-style: none;
 }
 
-
 .title {
     font-size: var(--titre);
     color: white;
     font-family: 'gemunu libre';
     text-align: center;
-    padding-bottom: 10%;
+    padding-bottom: 20%;
 }
 
 .watch {
@@ -26,4 +24,8 @@
     max-width: 30%;
     margin-left: 5%;
     margin-top: 5%;
+}
+
+.header_img {
+    margin-top: 80%;
 }
