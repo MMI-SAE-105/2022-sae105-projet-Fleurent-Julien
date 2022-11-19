@@ -17,10 +17,13 @@
     <!-- Header du site -->
 
     <header class="header">
-        <a href="index.html"><img src="public/Logo/logo_chronometre.png" alt="Icone pour aller sur la page d'accueil"
-                class="watch"></a>
-        <img src="public/Logo/logo_fr.png" alt="Changement de langue" class="language">
-        <h1 class="titre">A propos</h1>
+        <div>
+            <li><a href="index.html"><img src="public/Logo/logo_chronometre.png"
+                        alt="Icone pour aller sur la page d'accueil" class="watch"></a></li>
+            <li><a href="index_eng.html"><img src="public/Logo/logo_fr.png" alt="Changement de langue"
+                        class="language"></a></li>
+        </div>
+        <h1 class="annex">À propos</h1>
         <img src="public/Logo/triangle.svg" alt="forme triangle" class="triangle">
 
         <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
@@ -40,7 +43,7 @@
         </nav>
     </header>
 
-    <img src="public/img/Avatar.png" alt="Image de l'avatar de Julien Fleurent">
+    <img src="public/img/Avatar.png" alt="Image de l'avatar de Julien Fleurent" class="img_art">
 
     <p>Salut, je suis Julien Fleurent et je suis en 1ère année de BUT MMI (Métiers du Multimédia et de l’Internet) à
         Montbéliard.
@@ -51,22 +54,24 @@
     </p>
 
     <dl x-data="{open : false}" :class="{noscroll:open,}" aria-controls="mainMenu1" @click="open = ! open">
-        <h2>Glossaire</h2>
-        <dd id="mainMenu1" x-show="open" x-transition.duration.800ms>Easter Egg : Terme utilisé en Informatique pour
-            désigner une référence qui
-            techniquement ne devrait pas
-            apparaître</dd>
-        <dd id="mainMenu1" x-show="open" x-transition.duration.800ms>Shoot'em Up : Ou “shmup” est une catégorie de jeu
-            vidéo ou l’on dirige un
-            véhicule ou un personnage en
-            détruisant un nombre d’ennemis à partir de projectiles pour rester en vie.</dd>
-        <dd id="mainMenu1" x-show="open" x-transition.duration.800ms>Protonthérapie : Radiothérapie qui utilise un type
-            particulier de rayons : les
-            protons.</dd>
-        <dd id="mainMenu1" x-show="open" x-transition.duration.800ms>NFT : Jeton Non Fongible désigne un fichier
-            numérique auquel un certificat
-            d'authenticité numérique a été
-            attaché</dd>
+        <h2>Glossaire (appuyez pour découvrir)</h2>
+        <dd id="mainMenu1" x-show="open" x-transition.duration.800ms>
+            <h3>Easter Egg :</h3> Terme utilisé en Informatique pour
+            désigner une référence qui techniquement ne devrait pas apparaître
+        </dd>
+        <dd id="mainMenu1" x-show="open" x-transition.duration.800ms>
+            <h3>Shoot'em Up :</h3> Ou “shmup” est une catégorie de
+            jeu vidéo ou l’on dirige un véhicule ou un personnage en détruisant un nombre d’ennemis à partir
+            de projectiles pour rester en vie.
+        </dd>
+        <dd id="mainMenu1" x-show="open" x-transition.duration.800ms>
+            <h3>Protonthérapie :</h3> Radiothérapie qui utilise un
+            type particulier de rayons : les protons.
+        </dd>
+        <dd id="mainMenu1" x-show="open" x-transition.duration.800ms>
+            <h3>NFT :</h3> Jeton Non Fongible désigne un fichier
+            numérique auquel un certificat d'authenticité numérique a été attaché
+        </dd>
     </dl>
 
     <!--Footer-->

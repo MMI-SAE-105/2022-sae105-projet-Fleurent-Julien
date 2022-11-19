@@ -15,13 +15,15 @@
 
     <!-- Header du site -->
 
-    <header>
-        <a href="index.html"><img src="public/Logo/logo_chronometre.png" alt="Icone pour aller sur la page d'accueil"
-                class="watch"></a>
-        <img src="public/Logo/logo_fr.png" alt="Changement de langue" class="language">
-        <h1 class="titre">Galerie</h1>
+    <header class="header">
+        <div>
+            <li><a href="index.html"><img src="public/Logo/logo_chronometre.png"
+                        alt="Icone pour aller sur la page d'accueil" class="watch"></a></li>
+            <li><a href="index_eng.html"><img src="public/Logo/logo_fr.png" alt="Changement de langue"
+                        class="language"></a></li>
+        </div>
+        <h1 class="annex">Galerie</h1>
         <img src="public/Logo/triangle.svg" alt="forme triangle" class="triangle">
-
         <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
             <div class="nav-toggle-bar"></div>
         </div>
@@ -40,28 +42,28 @@
     </header>
 
     <section>
-        <img src="public/img/Bordeaux.webp" alt="ville de bordeaux">
+        <img src="public/img/Bordeaux.webp" alt="ville de bordeaux" class="img_art">
         <h4>Bordeaux</h4>
     </section>
 
     <section>
-        <img src="public/img/Lyon.webp" alt="ville de Lyon">
+        <img src="public/img/Lyon.webp" alt="ville de Lyon" class="img_art">
         <h4>Lyon</h4>
     </section>
 
     <section>
-        <img src="public/img/Paris.webp" alt="ville de Paris">
+        <img src="public/img/Paris.webp" alt="ville de Paris" class="img_art">
         <h4>Paris</h4>
     </section>
 
     <section>
-        <img src="public/img/Lille.webp" alt="ville de Lille">
+        <img src="public/img/Lille.webp" alt="ville de Lille" class="img_art">
         <h4>Lille</h4>
     </section>
 
     <!--Footer-->
 
-    <footer>
+    <footer class="footer">
         <div>
             <ul>
                 <li>Julien Fleurent</li>
@@ -71,7 +73,7 @@
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="autres_projets.html">Autres projets</a></li>
                 <li><a href="a_propos">À propos</a></li>
-                <li class="mention">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique↩
+                <li class="mention">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique
                     au département MMI Montbéliard</li>
             </ul>
         </div>

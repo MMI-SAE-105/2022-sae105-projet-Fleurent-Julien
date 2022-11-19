@@ -62,3 +62,20 @@ blockquote {
     font-family: 'kanit';
     font-size: var(--header-3);
 }
+
+dd {
+    font-family: 'kanit';
+    font-size: var(--header-3);
+    margin-right: 5%;
+}
+
+h2>a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-left: 5%;
+}
+
+h2>a>p {
+    font-size: var(--header-2);
+}
