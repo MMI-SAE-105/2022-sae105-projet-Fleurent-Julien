@@ -27,12 +27,12 @@
 }
 
 .annex {
-    font-size: var(--header-1);
     font-family: 'rubik';
+    font-size: var(--header-1);
     color: var(--quartz);
-    text-align: center;
+    text-align: justify;
     position: absolute;
-    display: grid;
     z-index: 1;
-    margin-left: 10%;
+    padding-top: 20%;
+    padding-left: 20%;
 }

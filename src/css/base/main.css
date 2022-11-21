@@ -24,12 +24,32 @@
 
 .triangle {
     margin-left: 5%;
+    max-width: 100%;
 }
 
 .img_art {
-    width: 80%;
+    max-width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
+}
+
+label {
+    font-size: var(--header-3);
+    font-family: 'kanit';
+    display: flex;
+    margin-left: 10%;
+}
+
+input,
+textarea {
+    font-size: var(--header-3);
+    font-family: 'kanit';
+    margin-left: 10%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    background-color: var(--grey);
+    border-color: var(--bleu-clair);
 }
