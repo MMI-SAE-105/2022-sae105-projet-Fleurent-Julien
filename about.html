@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 
 
 <head>
@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="/src/css/style.css">
-    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
 
@@ -18,11 +17,10 @@
 
     <header class="header">
         <div>
-            <li><a href="index.html"><img src="public/Logo/logo_chronometre.png"
-                        alt="Icone pour aller sur la page d'accueil" class="watch"></a></li>
-            <li><a href="index_eng.html"><img src="public/Logo/logo_fr.png" alt="changing language"
-                        class="language"></a></li>
+            <a href="index.html"><img src="public/Logo/logo_chronometre.png"
+                    alt="Icone pour aller sur la page d'accueil" class="watch"></a>
         </div>
+        <a href="index_eng.html"><img src="public/Logo/logo_fr.png" alt="changing language" class="language"></a>
         <h1 class="annex">About</h1>
         <img src="public/Logo/triangle.svg" alt="forme triangle" class="triangle">
 
@@ -54,24 +52,26 @@
         Don’t hesitate to join me on the social networks which are available below in the footer.
     </p>
 
-    <dl x-data="{open : false}" :class="{noscroll:open,}" aria-controls="mainMenu1" @click="open = ! open">
-        <h2>Glossary (touch to see)</h2>
-        <dd id="mainMenu1" x-show="open" x-transition.duration.800ms>
-            <h3>Easter Egg :</h3> A term used in computer science to designate a reference that technically
-            should not appear.
-        </dd>
-        <dd id="mainMenu1" x-show="open" x-transition.duration.800ms>
-            <h3>Shoot'em Up :</h3> Or “shmup” is a category of video game where you control a vehicle or a
-            character by destroying a number of enemies with projectiles to stay alive.
-        </dd>
-        <dd id="mainMenu1" x-show="open" x-transition.duration.800ms>
-            <h3>Proton Therapy :</h3> Radiotherapy that uses a particular type of radiation: protons.
-        </dd>
-        <dd id="mainMenu1" x-show="open" x-transition.duration.800ms>
-            <h3>NFT :</h3> Non-fungible token is a digital file to which a digital certificate of authenticity has
-            been attached.
-        </dd>
-    </dl>
+    <div>
+        <h2>Glossary</h2>
+        <ul>
+            <li>
+                <h3>Easter Egg :</h3> A term used in computer science to designate a reference that technically
+                should not appear.
+            </li>
+            <li>
+                <h3>Shoot'em Up :</h3> Or “shmup” is a category of video game where you control a vehicle or a
+                character by destroying a number of enemies with projectiles to stay alive.
+            </li>
+            <li>
+                <h3>Proton Therapy :</h3> Radiotherapy that uses a particular type of radiation: protons.
+            </li>
+            <li>
+                <h3>NFT :</h3> Non-fungible token is a digital file to which a digital certificate of authenticity has
+                been attached.
+            </li>
+        </ul>
+    </div>
 
     <!--Footer-->
 
