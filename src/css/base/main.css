@@ -46,10 +46,54 @@ input,
 textarea {
     font-size: var(--header-3);
     font-family: 'kanit';
+    margin: auto;
     margin-left: 10%;
     padding-right: 20%;
     padding-bottom: 5%;
     margin-bottom: 5%;
     background-color: var(--grey);
     border-color: var(--bleu-clair);
+    border-width: 5px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    max-width: 40%;
+    color: white;
+    background-color: var(--bleu-clair);
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 10%;
+    text-align: center;
+    border: none;
+}
+
+.arrow {
+    border-left: 10px;
+    height: auto;
+    border: solid;
+    width: 0;
+    color: var(--bleu-fonce);
+
+}
+
+.arrow::after {
+    width: 0;
+    height: 0;
+    border-right: 16px solid transparent;
+    border-left: 16px solid transparent;
+    border-top: 20px solid red;
+    margin-bottom: 10px;
+}
+
+.flex_arrow {
+    display: flex;
+    margin-left: 0;
+
+}
+
+.flex_section {
+    display: flex;
+    flex-direction: column;
+
 }
