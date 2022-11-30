@@ -22,13 +22,8 @@
     display: table;
 }
 
-.triangle {
-    margin-left: 5%;
-    max-width: 100%;
-}
-
 .img_art {
-    max-width: 80%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;

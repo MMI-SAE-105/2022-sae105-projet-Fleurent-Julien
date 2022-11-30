@@ -11,7 +11,7 @@
     color: white;
     font-family: 'gemunu libre';
     text-align: center;
-    padding-bottom: 20%;
+    margin-bottom: 20%;
 }
 
 .watch {
@@ -43,5 +43,10 @@
 }
 
 .img_tit {
-    max-width: 100%;
+    width: 100%;
+}
+
+.triangle {
+    margin-left: 10%;
+    width: 80%;
 }
