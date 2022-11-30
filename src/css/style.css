@@ -11,10 +11,9 @@
 @import url(base/main.css);
 @import url(base/font.css);
 
-
 /* Layout */
+@import url(layout/footer.css);
+@import url(layout/header.css);
 
 /* Compenents */
 @import url(compenents/menu.css);
-@import url(compenents/footer.css);
-@import url(compenents/header.css);
