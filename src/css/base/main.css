@@ -62,33 +62,3 @@ button {
     text-align: center;
     border: none;
 }
-
-.arrow {
-    border-left: 10px;
-    height: auto;
-    border: solid;
-    width: 0;
-    color: var(--bleu-fonce);
-
-}
-
-.arrow::after {
-    width: 0;
-    height: 0;
-    border-right: 16px solid transparent;
-    border-left: 16px solid transparent;
-    border-top: 20px solid red;
-    margin-bottom: 10px;
-}
-
-.flex_arrow {
-    display: flex;
-    margin-left: 0;
-
-}
-
-.flex_section {
-    display: flex;
-    flex-direction: column;
-
-}

@@ -4,7 +4,9 @@
     text-decoration: none;
     font-family: 'rubik';
     font-size: var(--body);
-    padding-top: 5px;
+    padding-top: 5%;
+    margin-top: 5%;
+
 }
 
 .footer li {
@@ -26,7 +28,8 @@
 }
 
 .footer img {
-    max-width: 15%;
+    max-width: 20%;
     margin-left: 7%;
     margin-bottom: 10%;
+    justify-content: center;
 }
