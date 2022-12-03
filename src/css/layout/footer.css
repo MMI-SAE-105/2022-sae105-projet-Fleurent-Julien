@@ -1,18 +1,25 @@
+/* Mise en forme de l'arrière plan du footer */
+
 .footer {
     background-color: var(--bleu-fonce);
-    color: white;
+    color: var(--quartz);
     text-decoration: none;
     font-family: 'rubik';
     font-size: var(--body);
-    padding-top: 5%;
-    margin-top: 5%;
+    padding-top: 10px;
+    margin-top: 10px;
+}
 
+/* Mise en forme du texte */
+
+.mention {
+    font-size: var(--header-4);
 }
 
 .footer li {
     text-decoration: none;
     list-style-type: none;
-    color: white;
+    color: var(--quartz);
     margin: 10px;
     text-align: left;
 }
@@ -20,16 +27,15 @@
 .footer a {
     text-decoration: none;
     font-family: 'rubik';
-    color: white;
+    color: var(--quartz);
 }
 
-.mention {
-    font-size: var(--header-4);
-}
+/* Mise en forme des logos */
 
 .footer img {
-    max-width: 20%;
-    margin-left: 7%;
-    margin-bottom: 10%;
-    justify-content: center;
+    max-width: 50px;
+    margin-left: 38px;
+    margin-bottom: 40px;
+    vertical-align: middle;
+    align-items: center;
 }

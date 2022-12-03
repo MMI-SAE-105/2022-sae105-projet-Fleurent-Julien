@@ -13,7 +13,7 @@ h3 {
 h2 {
     font-family: 'kanit';
     font-size: var(--header-2);
-    padding-left: 5%;
+    padding-left: 10px;
     font-weight: normal;
 }
 
@@ -28,19 +28,6 @@ article>a {
     font-family: 'rubik';
     font-size: var(--header-2);
     margin-top: 10%;
-}
-
-
-.titre {
-    font-family: 'rubik';
-    font-size: var(--header-1);
-    color: var(--quartz);
-    text-align: center;
-    position: absolute;
-    z-index: 1;
-    margin-top: 15%;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
 p>a {
@@ -79,4 +66,10 @@ h2>a {
 
 h2>a>p {
     font-size: var(--header-2);
+}
+
+.glossaire {
+    font-family: 'kanit';
+    font-size: var(--header-3);
+    margin-right: 20px;
 }

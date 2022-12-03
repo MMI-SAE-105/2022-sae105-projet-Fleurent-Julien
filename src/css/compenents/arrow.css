@@ -1,3 +1,5 @@
+/* Positionnement de la frise */
+
 .arrow,
 .arrow::before {
     border-left: 15px solid var(--bleu-triangle);
@@ -5,6 +7,21 @@
     width: 0;
     position: relative;
 }
+
+.flex_arrow {
+    display: flex;
+    margin-left: 0;
+}
+
+/* Positionnement des images */
+
+.flex_section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20%;
+}
+
+/* Pointe de la frise */
 
 .arrow::after {
     content: "";
@@ -16,15 +33,4 @@
     border-right: 100px solid transparent;
     border-left: 100px solid transparent;
     border-top: 100px solid var(--bleu-triangle);
-}
-
-.flex_arrow {
-    display: flex;
-    margin-left: 0;
-}
-
-.flex_section {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20%;
 }

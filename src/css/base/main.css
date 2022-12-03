@@ -4,13 +4,14 @@
 
 
 .block {
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-bottom: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
     background-color: var(--bleu-clair);
     color: var(--quartz);
+    border: 20px;
 }
 
 .bouton {
@@ -61,4 +62,12 @@ button {
     margin-bottom: 10%;
     text-align: center;
     border: none;
+}
+
+article>img {
+    max-width: 70%;
+    margin-left: 20px;
+    position: relative;
+    top: 60px;
+    z-index: -10;
 }
