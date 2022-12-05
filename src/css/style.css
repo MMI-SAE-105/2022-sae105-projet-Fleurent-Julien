@@ -17,4 +17,7 @@
 
 /* Compenents */
 @import url(compenents/menu.css);
-@import url(compenents/arrow.css)
+@import url(compenents/arrow.css);
+@import url(compenents/form.css);
+@import url(compenents/button.css);
+@import url(compenents/carrousel.css);

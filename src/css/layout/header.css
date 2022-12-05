@@ -31,11 +31,12 @@
     font-size: var(--header-1);
     color: var(--quartz);
     text-align: center;
-    position: relative;
+    position: absolute;
     display: block;
     z-index: 1;
-    margin-left: auto;
-    margin-right: auto
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 10px;
 }
 
 /* Mise en forme des logos */

@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galerie</title>
+    <link rel="icon" href="/public/Logo/logo_site.webp">
     <link rel="stylesheet" href="/src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
 
@@ -17,49 +19,70 @@
 
     <header class="header">
         <div>
-            <a href="index.html"><img src="public/Logo/logo_chronometre.png"
-                    alt="Icone pour aller sur la page d'accueil" class="watch"></a>
+            <a href="../index.html"><img src="/public/Logo/logo_site.webp" alt="Icone pour aller sur la page d'accueil"
+                    class="watch"></a>
         </div>
-        <a href="gallery.html"><img src="public/Logo/logo_fr.png" alt="Changement de langue" class="language"></a>
+        <a href="/en/gallery.html"><img src="/public/Logo/FR.webp" alt="Changement de langue" class="language"></a>
         <h1 class="annex">Galerie</h1>
-        <img src="public/Logo/triangle.svg" alt="forme triangle" class="triangle">
+        <img src="/public/Logo/triangle.svg" alt="forme triangle" class="triangle">
         <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
             <div class="nav-toggle-bar"></div>
         </div>
         <nav class="menu">
             <ul>
-                <li><a href="toulouse.html">Toulouse</a></li>
-                <li><a href="ready_player_one.html">Ready Player One</a></li>
-                <li><a href="warcross.html">Warcross</a></li>
-                <li><a href="danger.html">Danger</a></li>
-                <li><a href="twitter.html">Toxicité sur Twitter</a></li>
-                <li><a href="innovations.html">Innovations technologique</a></li>
-                <li><a href="galerie.html">Galerie</a></li>
-                <li><a href="filmographie.html">Filmographie</a></li>
+                <li><a href="/fr/toulouse.html">Toulouse</a></li>
+                <li><a href="/fr/ready_player_one.html">Ready Player One</a></li>
+                <li><a href="/fr/warcross.html">Warcross</a></li>
+                <li><a href="/fr/danger.html">Danger</a></li>
+                <li><a href="/fr/twitter.html">Toxicité sur Twitter</a></li>
+                <li><a href="/fr/innovations.html">Innovations technologique</a></li>
+                <li><a href="/fr/galerie.html">Galerie</a></li>
+                <li><a href="/fr/filmographie.html">Filmographie</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
-        <img src="public/img/Bordeaux.webp" alt="ville de bordeaux" class="img_art">
-        <h4>Bordeaux</h4>
-    </section>
+    <body>
 
-    <section>
-        <img src="public/img/Lyon.webp" alt="ville de Lyon" class="img_art">
-        <h4>Lyon</h4>
-    </section>
+        <div class="carrousel" x-data="{hrefCourant:'#ecran-1', '#ecran-2', '#ecran-3', '#ecran-4'}">
+            <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"
+                @click="const p =$refs.parent ;  p.scrollLeft-= p.clientWidth">
+                < </button>
+                    <button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant"
+                        @click="const p =$refs.parent ;  p.scrollLeft+= p.clientWidth">></button>
+                    <div class="carrousel_parent-ecrans" x-ref="parent" @scroll.debounce.250ms.passive="
+            hrefCourant = '#'+
+                              [...$refs.parent.children]
+                               .find(e=>e.getBoundingClientRect().x>=0)
+                               .id
+                                                 ">
 
-    <section>
-        <img src="public/img/Paris.webp" alt="ville de Paris" class="img_art">
-        <h4>Paris</h4>
-    </section>
-
-    <section>
-        <img src="public/img/Lille.webp" alt="ville de Lille" class="img_art">
-        <h4>Lille</h4>
-    </section>
-
+                        <div id="#ecran-1" class="carrousel_ecran">
+                            <figure>
+                                <img src="/public/img/Lyon.webp" alt="image ville lyon">
+                                <figcaption>Lyon</figcaption>
+                            </figure>
+                        </div>
+                        <div id="#ecran-2" class="carrousel_ecran">
+                            <figure>
+                                <img src="/public/img/Bordeaux.webp" alt="image ville bordeaux">
+                                <figcaption>Bordeaux</figcaption>
+                            </figure>
+                        </div>
+                        <div id="#ecran-3" class="carrousel_ecran">
+                            <figure>
+                                <img src="/public/img/Paris.webp" alt="image ville paris">
+                                <figcaption>Paris</figcaption>
+                            </figure>
+                        </div>
+                        <div id="#ecran-4" class="carrousel_ecran">
+                            <figure>
+                                <img src="/public/img/Lille.webp" alt="image ville lille">
+                                <figcaption>Lille</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+    </body>
     <!--Footer-->
 
     <footer class="footer">
@@ -68,10 +91,10 @@
                 <li>Julien Fleurent</li>
                 <li>Groupe A2</li>
                 <li><a href="mailto:julienfleurent4@gmail.com">julienfleurent4@gmail.com</a></li>
-                <li><a href="galerie.html">Galerie</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="autres_projets.html">Autres projets</a></li>
-                <li><a href="a_propos">À propos</a></li>
+                <li><a href="/fr/galerie.html">Galerie</a></li>
+                <li><a href="/fr/contact.html">Contact</a></li>
+                <li><a href="/fr/autres_projets.html">Autres projets</a></li>
+                <li><a href="/fr/a_propos">À propos</a></li>
                 <li class="mention">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique
                     au département MMI Montbéliard</li>
             </ul>
@@ -79,16 +102,16 @@
 
         <div>
             <a href="https://www.instagram.com/j.ulien.f/">
-                <img src="public/Logo/logo_instagram.png" alt="Logo Instagram">
+                <img src="/public/Logo/logo_insta.webp" alt="Logo Instagram">
             </a>
             <a href="https://www.youtube.com/channel/UCpifXy5gpG2nxZTlZ-F6Tig">
-                <img src="public/Logo/logo_youtube.png" alt="Logo YouTube">
+                <img src="/public/Logo/logo_youtube.webp" alt="Logo YouTube">
             </a>
             <a href="https://www.linkedin.com/in/julienfleurent/">
-                <img src="public/Logo/logo_linkedin.png" alt="Logo LinkedIn">
+                <img src="/public/Logo/logo_linkedin.webp" alt="Logo LinkedIn">
             </a>
             <a href="http://mmimontbeliard.com">
-                <img src="public/Logo/logo_mmi.png" alt="Logo departement MMI">
+                <img src="/public/Logo/logo_mmi.webp" alt="Logo departement MMI">
             </a>
         </div>
     </footer>

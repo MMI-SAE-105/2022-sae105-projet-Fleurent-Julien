@@ -1,0 +1,19 @@
+label {
+    font-size: var(--header-3);
+    font-family: 'kanit';
+    display: flex;
+    margin-left: 35px;
+}
+
+input,
+textarea {
+    font-size: var(--header-3);
+    font-family: 'kanit';
+    margin-left: 35px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 5%;
+    background-color: var(--grey);
+    border-color: var(--bleu-clair);
+    border-width: 5px;
+}

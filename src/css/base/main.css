@@ -31,27 +31,6 @@
     margin-top: 10%;
 }
 
-label {
-    font-size: var(--header-3);
-    font-family: 'kanit';
-    display: flex;
-    margin-left: 10%;
-}
-
-input,
-textarea {
-    font-size: var(--header-3);
-    font-family: 'kanit';
-    margin: auto;
-    margin-left: 10%;
-    padding-right: 20%;
-    padding-bottom: 5%;
-    margin-bottom: 5%;
-    background-color: var(--grey);
-    border-color: var(--bleu-clair);
-    border-width: 5px;
-}
-
 button {
     display: block;
     margin: auto;
