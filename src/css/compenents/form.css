@@ -17,3 +17,15 @@ textarea {
     border-color: var(--bleu-clair);
     border-width: 5px;
 }
+
+.btn {
+    font-family: 'kanit';
+    display: block;
+    margin: auto;
+    max-width: 30%;
+    color: var(--quartz);
+    background-color: var(--bleu-clair);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border: none;
+}

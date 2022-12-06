@@ -1,4 +1,6 @@
-p {
+p,
+q,
+blockquote {
     font-family: 'kanit';
     font-size: var(--header-3);
     margin-left: 20px;
@@ -21,18 +23,8 @@ body {
     background-color: var(--quartz);
 }
 
-article>a {
-    text-decoration: none;
-    color: var(--quartz);
-    background-color: var(--bleu-triangle);
-    font-family: 'rubik';
-    font-size: var(--header-2);
-    margin-top: 10%;
-}
-
-a>h2+p {
-    color: black;
-    text-decoration: none;
+p>a {
+    color: var(--texte);
 }
 
 h4 {
@@ -40,11 +32,10 @@ h4 {
     font-size: var(--header-4);
     font-family: 'kanit';
     font-weight: normal;
-
 }
 
 h4>a {
-    color: black;
+    color: var(--texte);
 }
 
 blockquote {
@@ -61,7 +52,7 @@ dd {
 h2>a {
     text-decoration: none;
     text-align: center;
-    color: black;
+    color: var(--texte);
     margin-left: 5%;
 }
 
@@ -81,7 +72,7 @@ figcaption {
 section>a {
     font-size: var(--header-2);
     text-decoration: none;
-    color: black;
+    color: var(--texte);
     text-align: center;
     margin-right: 20%;
 }

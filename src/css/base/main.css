@@ -14,37 +14,16 @@
     border: 20px;
 }
 
-.bouton {
-    margin-left: 40%;
-    margin-bottom: 10%;
-    margin-top: -5%;
-    padding: 5% 10%;
-    border-radius: 5px 5px;
-    display: table;
-}
-
 .img_art {
-    width: 80%;
+    max-width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
 }
 
-button {
-    display: block;
-    margin: auto;
-    max-width: 40%;
-    color: white;
-    background-color: var(--bleu-clair);
-    padding: 10px 20px 10px 20px;
-    margin-bottom: 10%;
-    text-align: center;
-    border: none;
-}
-
 article>img {
-    max-width: 70%;
+    max-width: 50%;
     margin-left: 20px;
     position: relative;
     top: 60px;

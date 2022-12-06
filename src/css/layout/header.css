@@ -21,9 +21,10 @@
     text-align: center;
     position: absolute;
     z-index: 1;
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 10px;
+    top: 170px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
 }
 
 .annex {
@@ -34,9 +35,10 @@
     position: absolute;
     display: block;
     z-index: 1;
-    margin-top: 100px;
-    margin-left: 70px;
-    margin-right: 10px;
+    top: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
 }
 
 /* Mise en forme des logos */
@@ -56,11 +58,16 @@
 /* Mise en forme des images*/
 
 .img_tit {
-    width: 100%;
+    max-width: 100%;
+    bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: block;
 }
 
 .triangle {
     margin-left: 30px;
-    width: 80%;
+    max-width: 80%;
     margin-bottom: 10px;
 }

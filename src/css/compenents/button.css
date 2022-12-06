@@ -1,0 +1,19 @@
+/* Boutons de la page d'accueil*/
+
+article>a {
+    text-decoration: none;
+    color: var(--quartz);
+    background-color: var(--bleu-triangle);
+    font-family: 'rubik';
+    font-size: var(--header-2);
+    text-align: center;
+}
+
+.bouton {
+    margin-left: 30%;
+    padding: 30px 30px;
+    border-radius: 5px 5px;
+    display: block;
+    margin-top: -20px;
+    margin-right: 15%;
+}
