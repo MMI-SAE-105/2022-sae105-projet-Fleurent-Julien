@@ -27,7 +27,13 @@
     margin-bottom: 10%;
 }
 
-.annex {
+/* Différents titres autres que les articles */
+
+.annex__abt,
+.annex__film,
+.annex__contact,
+.annex__other,
+.annex__gallery {
     font-family: 'rubik';
     font-size: var(--header-1);
     color: var(--quartz);
@@ -35,8 +41,39 @@
     position: absolute;
     display: block;
     z-index: 1;
-    top: 200px;
-    margin-left: 5%;
+}
+
+.annex__abt {
+    top: 230px;
+    margin-left: 90px;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.annex__film {
+    top: 230px;
+    margin-left: 50px;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.annex__contact {
+    top: 230px;
+    margin-left: 90px;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.annex__other {
+    top: 230px;
+    margin-left: 40px;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.annex__gallery {
+    top: 230px;
+    margin-left: 100px;
     margin-right: 5%;
     margin-bottom: 10%;
 }

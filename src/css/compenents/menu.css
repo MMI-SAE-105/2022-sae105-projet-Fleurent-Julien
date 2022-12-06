@@ -92,7 +92,7 @@
     color: var(--quartz);
     display: flex;
     align-items: center;
-    padding: 10%;
+    margin: 15%;
     justify-content: center;
     text-align: center;
     text-decoration: none;

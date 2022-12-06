@@ -2,6 +2,9 @@
     align-items: flex-start;
 }
 
+body {
+    background-color: var(--quartz);
+}
 
 .block {
     padding-left: 10px;
@@ -26,6 +29,6 @@ article>img {
     max-width: 50%;
     margin-left: 20px;
     position: relative;
-    top: 60px;
+    top: 80px;
     z-index: -10;
 }
