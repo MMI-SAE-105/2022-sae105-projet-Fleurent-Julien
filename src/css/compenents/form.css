@@ -28,4 +28,10 @@ textarea {
     padding: 10px 10px 10px 10px;
     text-align: center;
     border: none;
+    border-color: transparent;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
 }

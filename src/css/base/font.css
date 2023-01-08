@@ -15,7 +15,6 @@ p,
 q,
 blockquote,
 figcaption,
-.glossaire,
 h4 {
     margin-left: 20px;
     font-size: var(--header-3);
@@ -74,4 +73,9 @@ h4 {
 
 h2>a {
     margin-left: 5%;
+}
+
+.glossaire li {
+    list-style-type: none;
+    margin-right: 25px;
 }

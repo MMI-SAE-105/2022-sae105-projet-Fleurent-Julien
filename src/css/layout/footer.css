@@ -14,13 +14,15 @@
 
 .mention {
     font-size: var(--header-4);
+    margin-right: 12%;
 }
 
 .footer li {
     text-decoration: none;
     list-style-type: none;
     color: var(--quartz);
-    margin: 10px;
+    margin-left: 5px;
+    margin-bottom: 20px;
     text-align: left;
 }
 
